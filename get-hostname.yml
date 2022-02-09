@@ -6,3 +6,6 @@
         hostname
         whoami
       register: shell_output
+    - name: Print data
+      debug: 
+        var: shell_output
