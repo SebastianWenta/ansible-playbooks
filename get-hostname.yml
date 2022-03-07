@@ -1,5 +1,5 @@
 - name: GetHostname
-  hosts: all
+  hosts: paskdev-1_420530f3-ca3b-cfaf-3282-825ec726cbb3
   tasks:
     - name: Hostname
       shell: |
